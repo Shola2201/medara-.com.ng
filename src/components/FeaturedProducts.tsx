@@ -1,65 +1,68 @@
 import ProductCard from "./ProductCard";
-import diagnosticImage from "@/assets/equipment-diagnostic.jpg";
-import surgicalImage from "@/assets/equipment-surgical.jpg";
-import patientCareImage from "@/assets/equipment-patient-care.jpg";
+import surgicalImage from "@/assets/nigeria-surgical-equipment.jpg";
+import hospitalBedsImage from "@/assets/nigeria-hospital-beds.jpg";
+import testKitsImage from "@/assets/nigeria-test-kits.jpg";
+import wheelchairsImage from "@/assets/nigeria-wheelchairs.jpg";
+import sterilizationImage from "@/assets/nigeria-sterilization.jpg";
+import monitorsImage from "@/assets/nigeria-monitors.jpg";
 
 const featuredProducts = [
   {
-    image: diagnosticImage,
-    title: "Digital X-Ray Machine - DR-5000",
-    supplier: "MedTech Solutions",
-    price: "₦15,500,000",
-    rating: 4.8,
-    reviews: 32,
-    category: "Diagnostic Equipment",
-    featured: true
-  },
-  {
     image: surgicalImage,
-    title: "Surgical Operating Table - Elite Pro",
-    supplier: "SurgiCare Industries",
-    price: "₦8,750,000",
-    rating: 4.9,
-    reviews: 28,
+    title: "Basic Surgical Instrument Set",
+    supplier: "Lagos Medical Supplies",
+    price: "₦285,000",
+    rating: 4.6,
+    reviews: 24,
     category: "Surgical Equipment",
     featured: true
   },
   {
-    image: patientCareImage,
-    title: "Patient Monitor - CardioMax 3000",
-    supplier: "HealthTech Nigeria",
-    price: "₦4,200,000",
-    rating: 4.7,
-    reviews: 45,
+    image: hospitalBedsImage,
+    title: "Semi-Electric Hospital Bed",
+    supplier: "Abuja Healthcare Ltd",
+    price: "₦650,000",
+    rating: 4.5,
+    reviews: 18,
     category: "Patient Care",
     featured: true
   },
   {
-    image: diagnosticImage,
-    title: "Ultrasound Scanner - UltraView HD",
-    supplier: "Diagnostic Pro",
-    price: "₦12,300,000",
-    rating: 4.6,
-    reviews: 18,
-    category: "Diagnostic Equipment"
+    image: testKitsImage,
+    title: "Blood Pressure Monitor Digital",
+    supplier: "MedEquip Nigeria",
+    price: "₦45,000",
+    rating: 4.7,
+    reviews: 56,
+    category: "Diagnostic Equipment",
+    featured: true
   },
   {
-    image: surgicalImage,
-    title: "Anesthesia Machine - SafeFlow 200",
-    supplier: "AnesthCare Ltd",
-    price: "₦18,900,000",
-    rating: 4.8,
-    reviews: 22,
-    category: "Surgical Equipment"
-  },
-  {
-    image: patientCareImage,
-    title: "ICU Ventilator - LifeSupport Pro",
-    supplier: "CriticalCare Systems",
-    price: "₦25,600,000",
-    rating: 4.9,
-    reviews: 15,
+    image: wheelchairsImage,
+    title: "Standard Wheelchair - Manual",
+    supplier: "Mobility Solutions NG",
+    price: "₦120,000",
+    rating: 4.4,
+    reviews: 32,
     category: "Patient Care"
+  },
+  {
+    image: sterilizationImage,
+    title: "Tabletop Autoclave 18L",
+    supplier: "Sterilize Pro Nigeria",
+    price: "₦480,000",
+    rating: 4.8,
+    reviews: 15,
+    category: "Sterilization"
+  },
+  {
+    image: monitorsImage,
+    title: "Pulse Oximeter with Display",
+    supplier: "HealthMon Lagos",
+    price: "₦35,000",
+    rating: 4.6,
+    reviews: 28,
+    category: "Monitoring Equipment"
   }
 ];
 

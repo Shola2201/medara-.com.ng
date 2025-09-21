@@ -4,45 +4,45 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const categories = [
   {
-    name: "Diagnostic Equipment",
-    icon: Activity,
-    count: "250+ Products",
-    description: "MRI, CT Scanners, X-Ray machines",
-    color: "bg-blue-50 text-blue-600 border-blue-200"
-  },
-  {
-    name: "Surgical Instruments",
+    name: "Basic Surgical Tools",
     icon: Scissors,
-    count: "400+ Products",
-    description: "Surgical tools, Operating tables",
+    count: "150+ Products",
+    description: "Forceps, Scissors, Basic instruments",
     color: "bg-green-50 text-green-600 border-green-200"
   },
   {
-    name: "Patient Care",
+    name: "Hospital Beds & Furniture",
     icon: Bed,
-    count: "300+ Products",
-    description: "Hospital beds, Wheelchairs, Monitors",
+    count: "80+ Products",
+    description: "Manual & electric beds, Trolleys",
     color: "bg-purple-50 text-purple-600 border-purple-200"
   },
   {
-    name: "Laboratory Equipment",
+    name: "Test Kits & Monitors",
+    icon: Activity,
+    count: "120+ Products",
+    description: "BP monitors, Thermometers, Test kits",
+    color: "bg-blue-50 text-blue-600 border-blue-200"
+  },
+  {
+    name: "Basic Lab Equipment",
     icon: FlaskConical,
-    count: "200+ Products",
-    description: "Lab instruments, Analyzers",
+    count: "90+ Products",
+    description: "Microscopes, Basic analyzers",
     color: "bg-orange-50 text-orange-600 border-orange-200"
   },
   {
-    name: "Imaging Equipment",
+    name: "Sterilization Equipment",
     icon: Camera,
-    count: "150+ Products",
-    description: "Ultrasound, Endoscopy equipment",
+    count: "65+ Products",
+    description: "Autoclaves, UV sterilizers",
     color: "bg-teal-50 text-teal-600 border-teal-200"
   },
   {
-    name: "Monitoring Devices",
+    name: "Patient Monitoring",
     icon: Stethoscope,
-    count: "180+ Products",
-    description: "Patient monitors, Vital signs",
+    count: "75+ Products",
+    description: "Pulse oximeters, Basic monitors",
     color: "bg-pink-50 text-pink-600 border-pink-200"
   }
 ];
